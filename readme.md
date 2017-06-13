@@ -11,6 +11,8 @@ be made on this repository.
 
 4) created auth middleware for authentication system
 
+5) Hotel and Comments model created with approopriate relation
+
 
 <!-- <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 

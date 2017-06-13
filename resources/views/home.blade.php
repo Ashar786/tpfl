@@ -10,7 +10,9 @@
                 <div class="panel-body">
                     You are logged in!
                 </div>
-                <center><div>HOTELS</div></center>
+                <center><div>HOTELS</div>
+                
+                </center>
             </div>
         </div>
     </div>
