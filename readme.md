@@ -7,7 +7,9 @@ be made on this repository.
 
 2) added latest version of laravel 5.4
 
-3) added bower uusing jQuery
+3) added bower uusing jQuery 
+
+4) created auth middleware for authentication system
 
 
 <!-- <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
