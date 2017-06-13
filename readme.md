@@ -5,7 +5,7 @@ TEST PAC FOR LARAVEL
 1 ) You were granted a github access to an empty repository, your final delivery need to
 be made on this repository. 
 
-
+2) added latest version of laravel 5.4
 
 
 
