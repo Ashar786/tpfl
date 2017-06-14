@@ -17,6 +17,8 @@ be made on this repository.
 
 7) Created user using Seeds 
 
+8) front page list of all hotel
+
 
 <!-- <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
