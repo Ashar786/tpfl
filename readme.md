@@ -13,6 +13,8 @@ be made on this repository.
 
 5) Hotel and Comments model created with approopriate relation
 
+6) Admin Route created successfully
+
 
 <!-- <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 

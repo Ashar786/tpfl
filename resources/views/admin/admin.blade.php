@@ -8,11 +8,11 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in!
+                    ADMIN SECTION
                 </div>
-                <div class="pull-right"><a href="/admin/create"><div class="btn btn-info">ADD HOTEL</div></a></div>
-                <center><div class="com-md-6">HOTELS</div>
+                <center><div class="btn btn-info"><a href="/admin/create">ADD HOTEL</a></div>
                 <br>
+                <h2>TOTAL HOTEL IN DB</h2>
                 <ul class="list-group">
                 @foreach($Hotels as $Hotel)
                   <li class="list-group-item">{{$Hotel->name}}</li>

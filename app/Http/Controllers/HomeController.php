@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Hotel;
 class HomeController extends Controller
 {
     /**
@@ -22,7 +22,8 @@ class HomeController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {   
-        return view('home');
+    {   $Hotels = new Hotel();
+        $Hotels = Hotel::all();
+        return view('home',compact('Hotels'));
     }
 }

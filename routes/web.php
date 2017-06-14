@@ -10,11 +10,16 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Hotel;
 
 Route::get('/', function () {
-    return view('welcome');
+    	$Hotels = new Hotel();
+        $Hotels = Hotel::all();
+        return view('welcome',compact('Hotels'));
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('admin','admincontroller');

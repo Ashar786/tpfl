@@ -78,9 +78,13 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    HOTELS
-                </div>    
+                <h1>HOTELS</h1>
+                <ul class="list-group">
+                @foreach($Hotels as $Hotel)
+                  <li class="list-group-item">{{$Hotel->name}}</li>
+                @endforeach
+                </ul>
+                   
             </div>
         </div>
     </body>
