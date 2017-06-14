@@ -15,6 +15,8 @@ be made on this repository.
 
 6) Admin Route created successfully
 
+7) Created user using Seeds 
+
 
 <!-- <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
