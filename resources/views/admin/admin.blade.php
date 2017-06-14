@@ -15,7 +15,7 @@
                 <h2>TOTAL HOTEL IN DB</h2>
                 <ul class="list-group">
                 @foreach($Hotels as $Hotel)
-                  <li class="list-group-item">{{$Hotel->name}}</li>
+                  <a href="{{'/admin/'.$Hotel->id}}"><li class="list-group-item">{{$Hotel->name}}</li></a>
                 @endforeach
                 </ul>
                 
