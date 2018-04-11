@@ -22,6 +22,7 @@ be made on this repository.
 9) By clicking on a hotel you see all comments of this hotel.
 10) If I’m logged in (not anonymous) with an user I’m able to post a comment.
 11) You deliver to github.
+Complete app
 
 <!-- <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
